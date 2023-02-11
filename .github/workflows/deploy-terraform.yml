@@ -65,5 +65,5 @@ jobs:
           registry-login-server: terraformdockeracr.azurecr.io
           registry-username: ${{ secrets.ARM_CLIENT_ID }}
           registry-password: ${{ secrets.ARM_CLIENT_SECRET }}
-          name: terraformcontainer
+          name: baluterraformcontainer
           location: "West Europe"
